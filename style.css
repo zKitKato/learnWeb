@@ -1,0 +1,31 @@
+:root {
+    scroll-behavior: smooth;
+}
+
+body {
+    /*unvisible is margin*/
+    margin: 0;
+    /*visible is padding */
+    padding: 0;
+}
+
+header {
+    background: rgba(0,0,0, 0.5);
+    padding: 50px;
+    color: white;
+}
+
+header .section1 {
+    background-size: 50px;
+
+}
+
+.table {
+    border: 3px solid black;
+    margin: 100px;
+
+}
+
+th, td {
+    text-align: center;
+}
